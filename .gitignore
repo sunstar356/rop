@@ -3,3 +3,5 @@
 **/target/**/*
 rop-client-js/**/*
 
+rop/.settings
+rop-sample/.settings
