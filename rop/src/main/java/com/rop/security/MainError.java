@@ -16,7 +16,7 @@ import java.util.List;
  */
 public interface MainError {
 
-    String getCode();
+	Integer getCode();
 
     String getMessage();
 

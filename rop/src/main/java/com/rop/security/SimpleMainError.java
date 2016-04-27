@@ -17,7 +17,7 @@ import java.util.List;
  */
 public class SimpleMainError implements MainError {
 
-    private String code;
+    private Integer code;
 
     private String message;
 
@@ -25,13 +25,13 @@ public class SimpleMainError implements MainError {
 
     private List<SubError> subErrors = new ArrayList<SubError>();
 
-    public SimpleMainError(String code, String message, String solution) {
+    public SimpleMainError(Integer code, String message, String solution) {
         this.code = code;
         this.message = message;
         this.solution = solution;
     }
 
-    public String getCode() {
+    public Integer getCode() {
         return code;
     }
 

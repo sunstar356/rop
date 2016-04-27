@@ -31,7 +31,7 @@ public class ErrorResponse{
     protected String errorToken = CommonConstant.ERROR_TOKEN;
 
     @XmlAttribute
-    protected String code;
+    protected Integer code;
 
     @XmlElement
     protected String message;
@@ -55,11 +55,11 @@ public class ErrorResponse{
         }
     }
 
-    public String getCode() {
+    public Integer getCode() {
         return code;
     }
 
-    public void setCode(String code) {
+    public void setCode(Integer code) {
         this.code = code;
     }
 
